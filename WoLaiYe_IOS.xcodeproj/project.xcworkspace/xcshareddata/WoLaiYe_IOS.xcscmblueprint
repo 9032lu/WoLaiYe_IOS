@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "d91eabdc-238a-a24c-ae9d-6dc87ea3650e",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d91eabdc-238a-a24c-ae9d-6dc87ea3650e" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d91eabdc-238a-a24c-ae9d-6dc87ea3650e" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2EC7DAC2-B92C-42EC-BE59-29EEBE8E41E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d91eabdc-238a-a24c-ae9d-6dc87ea3650e" : "WoLaiYe\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WoLaiYe_IOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "03Code\/WoLaiYe_IOS\/WoLaiYe_IOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/114.215.172.131\/svn\/WoLaiYe",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d91eabdc-238a-a24c-ae9d-6dc87ea3650e"
+    }
+  ]
+}

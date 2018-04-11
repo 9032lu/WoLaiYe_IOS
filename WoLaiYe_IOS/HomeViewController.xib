@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="table_view" destination="TU5-8P-gXw" id="gie-t7-EC4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="TU5-8P-gXw">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="rUV-Qx-gfq"/>
+                        <outlet property="delegate" destination="-1" id="hpe-Ic-Owm"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TU5-8P-gXw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NoY-wo-mWr"/>
+                <constraint firstItem="TU5-8P-gXw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OOh-c5-7jZ"/>
+                <constraint firstAttribute="bottom" secondItem="TU5-8P-gXw" secondAttribute="bottom" id="ilf-2x-keE"/>
+                <constraint firstAttribute="trailing" secondItem="TU5-8P-gXw" secondAttribute="trailing" id="qwH-dR-jx8"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="TU5-8P-gXw"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="NoY-wo-mWr"/>
+                    <exclude reference="OOh-c5-7jZ"/>
+                    <exclude reference="ilf-2x-keE"/>
+                    <exclude reference="qwH-dR-jx8"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="TU5-8P-gXw"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="NoY-wo-mWr"/>
+                    <include reference="OOh-c5-7jZ"/>
+                    <include reference="ilf-2x-keE"/>
+                    <include reference="qwH-dR-jx8"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="192" y="795"/>
+        </view>
+    </objects>
+</document>
